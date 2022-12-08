@@ -1,3 +1,6 @@
+/// _MyHomepageState is a StatefulWidget that has a timer that counts down from 90 seconds. When the
+/// timer reaches 0, the user is taken to a new screen. The user can also skip to the new screen by
+/// pressing a button
 import 'dart:async';
 
 import 'package:cis/controller/api_controller.dart';
@@ -55,6 +58,13 @@ class _MyHomepageState extends State<MyHomepage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(
+          iconTheme: const IconThemeData(
+            color: Colors.black, //change your color here
+          ),
+          backgroundColor: Colors.white,
+          elevation: 0.0,
+        ),
         body: (seconds == 0)
             ? Center(
                 child: Column(

@@ -1,3 +1,6 @@
+/// This class is a stateful widget that has a textfield for the user to enter their email address. When
+/// the user presses the reset button, the resetPassword() function is called. This function sends a
+/// password reset email to the user's email address
 import 'package:cis/screens/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

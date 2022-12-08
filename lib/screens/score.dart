@@ -1,3 +1,5 @@
+/// _ScoreScreenState extends State&lt;ScoreScreen&gt; and overrides build() to return a Scaffold with
+/// an AppBar and a Center widget containing a Column with a Text and four ListTile widgets.
 import 'package:flutter/material.dart';
 
 class ScoreScreen extends StatefulWidget {
